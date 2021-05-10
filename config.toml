@@ -5,6 +5,7 @@ languageCode = "en"
 title = "emmacastet"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
+defaultContentLanguage = "en"
 
 
 [params]
@@ -161,17 +162,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         url = "//facebook.com/emma-castet.3/"
         title = "Emma Castet"
 
-    defaultContentLanguage = "en"
+  
 
-    [languages.en]
-        title = "My blog"
-        weight = 1
-    [languages.en.params]
-        linkedin = "https://linkedin.com/whoever"
-    [languages.fr]
-        title = "Mon blogue"
-        weight = 2
-     [languages.fr.params]
-        linkedin = "https://linkedin.com/fr/whoever"
-      [languages.fr.params.navigation]
-        help = "Aide"
+
