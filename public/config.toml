@@ -1,0 +1,119 @@
+baseURL = "http://emma.castet.github.io"
+languageCode = "en-us"
+theme = "sada"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+    name = "emma.castet.github.io"
+    title = "Emma Castet"
+    author = "Darshan Baral"
+    description = "Profile"
+    copyright = "Custom copyright message"
+    theme = "light" # `dark` or `light`
+    useResources = false
+
+    # Profile section
+    [params.profile]
+        name = "Emma Castet"
+        photo = "images/moi2.png"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+        icon = "fab fa-linkedin-in"
+        url = "https://www.linkedin.com/in/emma-castet-279a971b9/"
+        title = "LinkedIn"
+
+        [[params.social.list]]
+        icon = "fab fa-github"
+        url = "//github.com/emmaCastet"
+        title = "GitHub"
+				
+
+    # Education section
+    [params.education]
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "High school diploma in Economics and Social option mathematics"
+        college = "High School international Victor Hugo in Colomiers"
+        dates = "2016 - 2019"
+
+        [[params.education.list]]
+        degree = "DUT in Computer science"
+        college = "University Institute of Technology of Blagnac"
+        dates = "2019-"
+
+    # Languages section
+    [params.language]
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "French"
+        level = "Native"
+				
+        [[params.language.list]]
+        language = "English"
+        level = "Fluent"
+
+        [[params.language.list]]
+        language = "Spanish"
+        level = "Good"
+
+    # Interests section
+    [params.hobbies]
+        title = "Hobbies"
+
+        [[params.hobbies.list]]
+        interest = "Cinema"
+		
+		[[params.hobbies.list]]
+        interest = "Reading"
+
+        [[params.hobbies.list]]
+        interest = "Drawing"
+
+        [[params.hobbies.list]]
+        interest = "Travelling"
+
+    [params.aboutme]
+        description = "Serious and autonomous student in computer science, I am interested in this realm since my childhood. Currently in my second year of DUT in computer science, I'm still learning some new skills. I got my driver's license in 2019."
+
+    # Experiences section
+    [params.experiences]
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Internship in Toulouse-Blagnac Airport"
+        dates = "march 2016-april 2016"
+        company = "Air France"
+
+    # Projects section
+    [params.projects]
+        title = "Projects"
+
+        [[params.projects.list]]
+        title = "Supervised project"
+        description = "Creation of a web application useful for the management of the teaching staff coded in PHP as well as in SQL."
+		
+		[[params.projects.list]]
+        title = "UIT Project"
+        description = "Modification of a virtual app treating bank management coded in JAVA"
+
+    # Skills section
+    [params.skills]
+        title = "Skills"
+
+        [[params.skills.list]]
+        skill = "HTML, CSS"
+        skillrating = 95 # out of 100
+                
+        [[params.skills.list]]
+        skill = "JAVA"
+        skillrating = 90
+		
+        [[params.skills.list]]
+        skill = "PHP"
+        skillrating = 80
