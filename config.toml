@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://emmacastet.github.io"
+baseurl = "https://emmacastet.github.io"
 languageCode = "en"
 title = "emmacastet"
 theme = "hugo-devresume-theme"
